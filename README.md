@@ -10,7 +10,7 @@
 ** - Invitation du Bot: [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot)
 
 ** - [[ViB]Music](https://discord.com/oauth2/authorize?client_id=749823254126133318&permissions=37080128&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-Music) || Bot Musique Only.  
-** - [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-) || Bot General.  
+** - [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-) || Bot General Officiel.  
 
 
 ## 📝 LAST UPDATE 09 MAI 2021  
