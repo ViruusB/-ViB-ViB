@@ -1,11 +1,11 @@
 {
-    "name": "[ViB]ViB",
+    "name": "ViB",
     "version": "3.0.0",
     "description": "[ViB] est officiellement lancé. Il est en constante évolution, pensez à vérifier de temps en temps.",
-    "main": "[ViB]ViB.js",
+    "main": "ViB.js",
     "license": "MIT",
     "scripts": {
-        "start": "node [ViB]ViB.js"
+        "start": "node ViB.js"
     },
     "engines": {
         "node": "14.x"

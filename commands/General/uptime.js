@@ -20,9 +20,9 @@ module.exports = {
         const duration = moment.duration(bot.uptime)
     let bicon = bot.user.displayAvatarURL()
     const botuptime = new MessageEmbed()
-        .setAuthor(`[ViB]ViB`, "https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg")
+        .setAuthor(`ViB`, "https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg")
         .setColor("RANDOM")
-        .setDescription(`**[ViB]ViB est actif depuis:** \`${uptime}\`. \n **Latence du bot:** \`${bot.ws.ping} ms\`. \n\n  :exclamation:   **__Attention!__** **[ViB]ViB se redémarre après \`20 à 24 heures\` pour une meilleur qualité **`)
+        .setDescription(`**ViB est actif depuis:** \`${uptime}\`. \n **Latence du bot:** \`${bot.ws.ping} ms\`. \n\n  :exclamation:   **__Attention!__** **ViB se redémarre après \`20 à 24 heures\` pour une meilleur qualité **`)
         .setFooter('© ViruusB •', 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
         .setThumbnail(bicon);
         message.channel.send(botuptime);
