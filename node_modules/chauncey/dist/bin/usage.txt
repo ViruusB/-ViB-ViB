@@ -1,0 +1,7 @@
+Usage: chauncey <url> [options]
+
+Options:
+  -h, --help  Show help
+
+Example:
+  chauncey http://google.com/  Shorten http://google.com/ using Bitly
