@@ -46,4 +46,4 @@ client.on("guildMemberRemove", async member => {
     channel.send(memberremove)
 })
 
-client.login(process.env.TOKEN);
+client.login(client.config.TOKEN);
