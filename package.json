@@ -1,0 +1,82 @@
+{
+    "name": "[ViB]ViB",
+    "version": "1.2.2",
+    "description": "[ViB] est officiellement lancé. Il est en constante évolution, pensez à vérifier de temps en temps.",
+    "main": "[ViB]ViB.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node [ViB]ViB.js"
+    },
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "@discordjs/opus": "^0.3.2",
+        "axios": "^0.21.1",
+        "chalk": "^4.1.0",
+        "chauncey": "^1.0.14",
+        "common-tags": "^1.8.0",
+        "date.format": "^1.1.2",
+        "dateformat": "^4.5.1",
+        "discord-remote-auth": "^1.0.3",
+        "discord-ytdl-core": "^5.0.2",
+        "discord.js": "^12.5.3",
+        "dotenv": "^8.2.0",
+        "ffmpeg": "0.0.4",
+        "ffmpeg-static": "^4.3.0",
+        "fs": "0.0.1-security",
+        "humanize-duration": "^3.25.1",
+        "imgur": "^0.3.2",
+        "line-reader": "^0.4.0",
+        "lowdb": "^1.0.0",
+        "lyrics-finder": "^21.7.0",
+        "mal-scraper": "^2.11.3",
+        "math-expression-evaluator": "^1.3.7",
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2",
+        "ms": "^2.1.3",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.2.5",
+        "nekos.life": "^2.0.7",
+        "node-fetch": "^2.6.1",
+        "node-opus": "^0.3.3",
+        "nodemon": "^2.0.7",
+        "opusscript": "0.0.7",
+        "ping-monitor": "^0.4.4",
+        "pornsearch": "^2.4.3",
+        "quick.db": "^7.1.3",
+        "random-puppy": "^1.1.0",
+        "randomstring": "^1.1.5",
+        "reconlx": "^1.2.41",
+        "request": "^2.88.2",
+        "sequelize": "^6.6.2",
+        "soundcloud-downloader": "^0.2.4",
+        "sqlite3": "^5.0.2",
+        "superagent": "^6.1.0",
+        "weather-js": "^2.0.0",
+        "youtube-sr": "^2.0.5",
+        "yt-search": "^2.7.6",
+        "ytdl-core": "^4.7.0",
+        "ytdl-core-discord": "^1.3.0",
+        "ytpl": "^2.1.0"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ViruusB/-ViB-"
+    },
+    "keywords": [
+        "monitor",
+        "discord",
+        "bot",
+        "web",
+        "stats",
+        "status",
+        "statuts"
+    ],
+    "author": "ViruusB",
+    "bugs": {
+        "url": "https://github.com/ViruusB/-ViB-ViB"
+    },
+    "homepage": "https://github.com/ViruusB/-ViB-ViB"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "[ViB]ViB",
+    "description": "Bot discord officiel multi-fonction avec le discord.js",
+    "repository": "https://github.com/ViruusB/-ViB-",
+    "logo": "",
+    "keywords": [
+        "node",
+        "discord",
+        "youtube",
+        "music",
+        "bot"
+    ],
+    "image": "heroku/nodejs",
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "env": {
+        "TOKEN": {
+            "description": "Token copié dans la première section.",
+            "required": "true"
+        },
+        "PREFIX": {
+            "description": "Prefix que tu veux utiliser avec le bot.",
+            "value": ";"
+        },
+        "SOUNDCLOUD_CLIENT_ID": {
+            "description": "Le CLIEND_ID de SoundCloud",
+            "value": "dmDh7QSlmGpzH9qQoH1YExYCGcyYeYYC",
+            "required": "false"
+        }
+    }
+}
