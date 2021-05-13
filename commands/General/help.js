@@ -27,7 +27,7 @@ module.exports = {
             help.addField(`:busts_in_silhouette: | Interaction `, '`aime • burger • calin • calumet • declareamitie • declareamour • dynamite • ecraser • envie • fakeban • fakemute • falaise • frapper • ftp • kiss • lasso • moquer • peine • pete • pietine • interaction`')
             help.addField(`:gear: | Moderation `,  '`warn • clear • prune • annonce • id • mute • kick • ban • unmute • random • chuser • moderation`')
             help.addField(`:notes: | Music `, '`leave • loop • lyrics • nowplaying • pause • play • playlist • queue • remove • resume • search • shuffle • skip • skipto • stop • volume • music`')
-            help.addField(`:scroll: | Rôles `,  '`pc • playstation • xbox • nintendo • sega`')
+            help.addField(`:scroll: | Rôles `,  '`pc • playstation • xbox • nintendo • sega • role`')
             if(message.channel.nsfw) {
                 help.addField(`:underage: | NSFW `, '`hentai • thighs • bondage • anal • baka • blowjob • cum • erofeet • erokemo • eroyuri • feet • femdom • foxgirl • futa • gifhentai • slap • pussy • porngif • girl • gifporn • nsfw`')
             } else {
