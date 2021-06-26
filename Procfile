@@ -1,1 +1,1 @@
-worker: node ViB.js
+worker: node [ViB].js

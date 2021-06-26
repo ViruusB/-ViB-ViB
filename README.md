@@ -13,6 +13,13 @@
 ** - [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-) || Bot General Officiel.  
 
 
+## 📝 UPDATE EN COUR 
+```
+        * Ajout d'un handlers (logs)
+        * Ajout d'un dossier (logs)
+            Channel -> (channelCreate, channelUpdate, channelDelete)
+```
+
 ## 📝 LAST UPDATE 09 MAI 2021  
 ```
         * Ajout d'un AddMember/RemoveMember. (Salon requis: bienvenue)

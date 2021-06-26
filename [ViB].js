@@ -17,7 +17,7 @@ exports.config = () => {
 }
 
 ["aliases", "commands", "cooldowns"].forEach(cmd => client[cmd] = new Discord.Collection());
-["console", "command", "event"].forEach(events => require(`./handlers/${events}`)(client));
+["console", "command", "event", "logs"].forEach(events => require(`./handlers/${events}`)(client));
 
 client.categories = fs.readdirSync('./commands');
 
@@ -36,7 +36,7 @@ client.on("guildMemberAdd", async (member, message) => {
     channel.send(memberadd)
 })
 
-client.on("guildMemberRemove", async member => {
+client.on("guildMemberRemove", async (member, message) => {
     const channel = client.channels.cache.find(channel => channel.name === "bienvenue");
     if(!channel) return;
     let memberremove = new Discord.MessageEmbed()

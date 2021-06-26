@@ -6,6 +6,6 @@ cls
 @title ON --- M[ViB]
 @echo off
 :loop
-node ViB.js
+node [ViB].js
 timeout /t 3
 goto loop
