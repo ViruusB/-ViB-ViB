@@ -34,6 +34,7 @@ client.on("guildMemberAdd", async (member, message) => {
     .setDescription("<@" + member.user.id + "> a rejoint le serveur")
     .setColor("GREEN")
     channel.send(memberadd)
+    member.roles.add("833092038860865546")
 })
 
 client.on("guildMemberRemove", async (member, message) => {
