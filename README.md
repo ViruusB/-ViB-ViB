@@ -13,7 +13,7 @@
 ** - [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-) || Bot General Officiel.  
 
 
-## 📝 UPDATE EN COUR JUILLET 2021
+## 📝 GROSSE UPDATE : RELEASE V2.1.1 JUILLET 2021
 ```
         **--Ajout: 
 - Catégorie JEUX
@@ -88,6 +88,6 @@ Vous avez une erreur ou un problème avec le code/bot? Rejoignez ce serveur et p
 
 ## 📸 Screenshots  
 
-<div align="left"><img src="https://i.imgur.com/Gnf8Gpq.png"></div>
+<div align="left"><img src="https://i.imgur.com/kpwLwXA.png"></div>
 <div align="center"><img src="https://i.imgur.com/hlzBpdK.png"></div>
-<div align="right"><img src="https://i.imgur.com/FZdxrfm.png"></div># -ViB-ViB
+<div align="right"><img src="https://i.imgur.com/FZdxrfm.png"></div>
