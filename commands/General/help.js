@@ -29,7 +29,7 @@ module.exports = {
             help.addField(`:gear: | Moderation `,  '`warn • clear • prune • annonce • id • mute • kick • ban • unmute • random • chuser • gestionmoney • gestionor • moderation`')
             help.addField(`:notes: | Music `, '`leave • loop • lyrics • nowplaying • pause • play • playlist • queue • remove • resume • search • shuffle • skip • skipto • stop • volume • music`')
             help.addField(`:scroll: | Rôles `,  '`pc • playstation • xbox • nintendo • sega • role`')
-            help.addField(`:bank: | ViBank `,  '`• daily • bonus • leaderboard • pari • trademoney • tradeor`')
+            help.addField(`:bank: | ViBank `,  '`• daily • bonus • leaderboard • pari • trademoney • tradeor • vibank`')
             if(message.channel.nsfw) {
                 help.addField(`:underage: | NSFW `, '`hentai • thighs • bondage • anal • baka • blowjob • cum • erofeet • erokemo • eroyuri • feet • femdom • foxgirl • futa • gifhentai • slap • pussy • redtube • girl • gifporn • nsfw`')
             } else {
