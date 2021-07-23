@@ -11,7 +11,7 @@ module.exports = {
       aliases: ["profil", "userinfo", "infouser"],
       usage: "ou @utilisateur",
       category: "General",
-      description: "Donne les informations d'un utilisateur'.",
+      description: "Donne les informations d'un utilisateur.",
       accessableby: "DISPONIBLE",
   },
     run: async (client, message, args) => {
@@ -20,7 +20,10 @@ module.exports = {
         
         let user = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.member
         let durumm;
-        let durum = user.presence.status
+        let durum = client.user.presence.status
+
+        const money = db.fetch(`money_${user.id}`);
+        const or = db.fetch(`or_${user.id}`);
         
         let roles = user.roles.cache.map(x => x).filter(z => z.name !== "@everyone")
         let messagecount = await db.get(`${message.guild.id}.${user.id}.messageCount`)
@@ -39,7 +42,7 @@ module.exports = {
           safe = "`Suspicieux` :eye:"
         }
         
-        /*let a = {
+        let a = {
           "DISCORD_PARTNER": "<:partner_badge:736568773858951236>",
           "HYPESQUAD_EVENTS": "<:hypesquad_badge:736568773795905616>",
           "BUGHUNTER_LEVEL_1": "<:bug_hunter_badge:736568773963939900>  Bug Hunter Level 1",
@@ -50,7 +53,7 @@ module.exports = {
           "BUGHUNTER_LEVEL_2": "Discord Bug Hunter Level 2",
           "VERIFIED_DEVELOPER": "<:developer:718560145617190912> Discord Certifié Bot Developper",
           "VERIFIED_BOT": "Bot Certifié",
-        }*/
+        }
         
           if(durum === "online") durum = `En Ligne `
           if(durum === "offline") durum = `Hors Ligne `
@@ -66,19 +69,19 @@ module.exports = {
             flags = "L'utilisateur n'a pas de badge"
           }
         
-         flags = flags.replace("MAISON_BRAVERY", "• <:hsquadbravery:757488491792826410>\`HypeSquad Bravery\`")
-         flags = flags.replace("EARLY_SUPPORTER","• <a:nitro:740923343548579890> \`Early Supporter\`")
-         flags = flags.replace("VERIFIED_DEVELOPER","• <:discordbotdev:757489652214267904> \`Verified Bot Developer\`")
-         flags = flags.replace("EARLY_VERIFIED_DEVELOPER","• <:discordbotdev:757489652214267904> \`Verified Bot Developer\`")
-         flags = flags.replace("HOUSE_BRILLIANCE","• <:hsquadbrilliance:757487710775672863> \`HypeSquad Brilliance\`")
-         flags = flags.replace("HOUSE_BALANCE","• <:hsquadbalance:757487549605347348>\`HypeSquad Balance\`")
-         flags = flags.replace("DISCORD_PARTNER","• <:partner:739714991732686848> \`Partner\`")
-         flags = flags.replace("HYPESQUAD_EVENTS","• <a:hypesquad:755471122430034060>\`Hypesquad Event\`")
-         flags = flags.replace("DISCORD_CLASSIC","• <a:classic:740922817683652754>\`Discord Classic\`")
+         flags = flags.replace("MAISON_BRAVERY", "• \`HypeSquad Bravery\`")
+         flags = flags.replace("EARLY_SUPPORTER","• \`Early Supporter\`")
+         flags = flags.replace("VERIFIED_DEVELOPER","• \`Verified Bot Developer\`")
+         flags = flags.replace("EARLY_VERIFIED_DEVELOPER","• \`Verified Bot Developer\`")
+         flags = flags.replace("HOUSE_BRILLIANCE","• \`HypeSquad Brilliance\`")
+         flags = flags.replace("HOUSE_BALANCE","• \`HypeSquad Balance\`")
+         flags = flags.replace("DISCORD_PARTNER","• \`Partner\`")
+         flags = flags.replace("HYPESQUAD_EVENTS","• \`Hypesquad Event\`")
+         flags = flags.replace("DISCORD_CLASSIC","• \`Discord Classic\`")
       
           if(nitroBadge.includes("gif")) {
            flags = flags + `
-      • <a:nitroboost:740923077973508156>  \`Nitro\``
+      • \`Nitro\``
           }
           
           let voice = db.get(`${message.guild.id}.${user.user.id}.voicetime`)
@@ -128,9 +131,12 @@ module.exports = {
       **•** \`Activité:\` **${custom}**
       **•** \`Statut:\` **${durum}**
       __**Information Message**__
-      **•** \`Dernier Message:\` **${lastMessage}**
+      **•** \`Dernier Message:\` **${lastMessage} **
       **•** \`Dernier Message le:\` **${lastMessageTime}**
       **•** \`Total de Message:\` **${messagecount}**
+      __**Information Economique**__
+      **•** \`ViBCoins:\` **${money === null ? 0 : money}**
+      **•** \`Or:\` **${or === null ? 0 : or}**
       __**Information Badge**__
       ${flags} 
       __**Information Rôles:**__

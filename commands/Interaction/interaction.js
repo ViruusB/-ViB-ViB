@@ -16,7 +16,7 @@ module.exports = {
     var interinfo = "Interaction"
     let embed = new MessageEmbed()
         .setAuthor(`${interinfo}`, 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
-        .addField("Liste des commandes", "`aime` • `burger` • `calin` • `calumet` • `declareamitie` • `declareamour` • `dynamite` • `ecraser` • `envie` • `fakeban` • `fakemute` • `falaise` • `frapper` • `ftp` • `kiss` • `lasso` • `moquer` • `peine` • `pete` • `pietine`")
+        .addField("Liste des commandes", "`aime` • `burger` • `calin` • `calumet` • `declareamitie` • `declareamour` • `dynamite` • `ecraser` • `envie` • `fakeban` • `fakemute` • `falaise` • `frapper` • `ftp` • `kiss` • `lasso` • `moquer` • `peine` • `pete`")
         .setColor("#FFFFFF")
     message.channel.send(embed)
 

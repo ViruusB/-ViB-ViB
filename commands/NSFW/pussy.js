@@ -7,6 +7,7 @@ module.exports = {
         name: "pussy",
         aliases: ["pussy"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos pussy animé.",
         accessableby: "+18"
     },

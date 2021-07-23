@@ -26,7 +26,7 @@ module.exports = async (client, message) => {
         
         const now = Date.now();
         const timestamps = client.cooldowns.get(cmd);
-        const cooldownAmount = (cmd.cooldown || 15) * 1000;
+        const cooldownAmount = (cmd.cooldown || 5) * 1000;
 
         if (timestamps.has(message.author.id)) {
             const cdexpirationTime = timestamps.get(message.author.id) + cooldownAmount;

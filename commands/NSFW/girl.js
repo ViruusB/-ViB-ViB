@@ -7,6 +7,7 @@ module.exports = {
         name: "girl",
         aliases: ["girl"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos réélle de filles.",
         accessableby: "+18"
     },

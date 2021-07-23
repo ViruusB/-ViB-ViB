@@ -7,6 +7,7 @@ module.exports = {
         name: "gifporn",
         aliases: ["gifporn"],
         usage: "",
+        category: "NSFW",
         description: "Montre des gifs pornographique.",
         accessableby: "+18"
     },

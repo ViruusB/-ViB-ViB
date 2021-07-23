@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "weather",
         aliases: ["weather"],
-        usage: "",
+        usage: "<location>",
         category: "Fun",
         description: "Affiche la météo.",
         accessableby: "DISPONIBLE"

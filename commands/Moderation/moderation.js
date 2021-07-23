@@ -16,7 +16,7 @@ module.exports = {
     var musicinfo = "Moderation"
     let music = new MessageEmbed()
         .setAuthor(`${musicinfo}`, 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
-        .addField("Liste des commandes", "`annonce` • `ban` • `clear` • `id` • `kick` • `mute` • `prune` • `random` • `unmute` • `warn` • `chuser` • `moderation`")
+        .addField("Liste des commandes", "`annonce` • `ban` • `clear` • `id` • `kick` • `mute` • `prune` • `random` • `unmute` • `warn` • `chuser` • `gestionmoney` • `gestionor` • `moderation`")
         .setColor("#FFFFFF")
     message.channel.send(music)
     setTimeout(() => message.delete(), 3000);

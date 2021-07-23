@@ -7,6 +7,7 @@ module.exports = {
         name: "futa",
         aliases: ["futa"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos de futanari animé.",
         accessableby: "+18"
     },

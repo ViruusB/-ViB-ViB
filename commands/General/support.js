@@ -22,7 +22,6 @@ module.exports = {
         .addField("Serveur Discord:", ` \`\`\`fix\nViruusB\n\`\`\` [Lien d'invitation](https://discord.gg/YC4jNpeQkG)`, true)
         .addField("Bot General:", ` \`\`\`fix\nViB\n\`\`\` [Lien d'invitation](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot)`, true)
         .addField("Bot Musical:", ` \`\`\`fix\n[ViB]Music\n\`\`\` [Lien d'invitation](https://discord.com/oauth2/authorize?client_id=749823254126133318&permissions=37080128&scope=bot)`, true)
-        .addField("Bot RolePlayGame:", ` \`\`\`css\n[ViB]RPG \n\`\`\` [En Développement]`, true)
         .addField("Pour nous contacter, utilisez:", "`-contact`")
 
     message.channel.send(embed)

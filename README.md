@@ -13,66 +13,62 @@
 ** - [[ViB]](https://discord.com/api/oauth2/authorize?client_id=742118190561099817&permissions=8&scope=bot) - [GitHub](https://github.com/ViruusB/-ViB-) || Bot General Officiel.  
 
 
-## 📝 UPDATE EN COUR 
+## 📝 UPDATE EN COUR JUILLET 2021
 ```
-        * Ajout d'un handlers (logs)
-        * Ajout d'un dossier (logs)
-            Channel -> (channelCreate, channelUpdate, channelDelete)
-```
+        **--Ajout: 
+- Catégorie JEUX
+- Catégorie VIBANK
+- Catégorie ADMIN
+- Système de BACKUP
+- Système ECONOMIQUE ALPHA ("En Evolution")
 
-## 📝 LAST UPDATE 09 MAI 2021  
-```
-        * Ajout d'un AddMember/RemoveMember. (Salon requis: bienvenue)
-        * Ajout de commande [Fun]:
-          - (calcul)
-        * Ajout de commande [NSFW]:
-          - (porngif, girl, gifporn)
-        * Update de commande [Music]:
-          - (nowplaying.js, play.js, playlist.js, search.js) - Ajout du lien direct sur les titres
-```
+        **--Update:
+- Update commande NSFW ("Ajout de catégorie dans le HELP[nom_de_la_commande]")
+- Update dice.js ("Modification de l'embed")
+- Update help.js ("Erreur sur l'embed d'erreur" + "Ajout des Catégories")
+- Update profil/userinfo ("Ajout du système ECONOMIQUE" + "Amélioration Visuel")
+- Update : porngif devenue redtube ("Erreur sur l'affichage du contenu")
+- Update : ajout de description/usage sur des commandes manquantes
+- Update : Réduction du cooldown entre chaque commande identique
 
-## 📝 UPDATE 15 AVRIL 2021  
-```
+        **-- Ajout de Commandes:
+        * Ajout de commande [ViBank]: 
+- (bonus, daily, leaderboard, pari, trademoney, tradeor, vibank)
         * Ajout de commande [Moderation]:
-          - (chuser)
-        * Ajout de commande [Images/Gifs]:
-          - (hug, karma, tape, content, neko)
-        * Ajout de commande [Fun]:
-          - (binaire, eject, emojify, emojilist, avatar)
-        * [userinfo] devient [profil] + update de celui-ci
-        * Ajout de commande [Roles]: 
-          - (nintendo, pc, playstation, sega, xbox, role)
-        * Nouvelle catégorie [Rôles]  
-```
+- (gestionmoney, gestionor)
+        * Ajout de commande [Jeux]: 
+- (rps, pfc, bingo, love, dé, slots, jeux)
+        * Ajout de commande [Admin]: 
+- (Dossier "backups" - 1infobackup, 2creerbackup, 3chargerbackup, admin)
+        * Ajout de commande [Fun]: 
+- (blague, trad)
+        * Ajout de commande [NSFW]: 
+- (redtube)
 
-## 📝 UPDATE 14 AVRIL 2021  
-```
-        * Restructuration des catégories
-        * Modifaction de tout les assets
-        * Ajout de commande help unique pour chaque catégories
-          - (fun, general, img, interaction, moderation, music, nsfw)
-        * Ajout de Cooldown sur les commandes
-        * Ajout de la commande [REPORT UTILISATEUR]
-        * Ajout de la commande [REPORT SERVEUR]
-        * Automatisation des [console.log]
+        **--Suppression:
+- Suppresion des logs ("Channel Update", "Channel Create", "Channel Delete")
+- Suppression du handlers logs
 ```
 
 ## 📝 [ViB]Officiel  
 
-VERSION 1.2.6  
+VERSION 2.1.1  
 
 [ViB] est officiellement lancé.  
 Il est en constante évolution, pensez à vérifier de temps en temps.  
 [ViB] comporte: 
 ```
+        * Commandes [Admin]
         * Commandes [Fun]  
         * Commandes [General]  
         * Commandes [Images/Gifs] 
         * Commandes [Interaction]  
+        * Commandes [Jeux]  
         * Commandes [Moderation]  
         * Commandes [Music]  
         * Commandes [NSFW]  
-        * Commandes [Roles]  
+        * Commandes [Roles]
+        * Commandes [ViBank]    
 
 ```
 
@@ -87,7 +83,7 @@ PREFIX -> Déjà programmé pour l'hebergement sur Heroku à modifier dand le .e
 
 ## 📝 [Support](https://discord.gg/YC4jNpeQkG)  
 
-Vous avez une erreur ou un problème avec le code/bot? Rejoignez ce serveur et posez votre question au lieu de créer des problèmes, sauf s'il s'agit d'un bug de code. https://discord.gg/YC4jNpeQkG 
+Vous avez une erreur ou un problème avec le code/bot? Rejoignez ce serveur et posez votre question au lieu de créer des problèmes. https://discord.gg/YC4jNpeQkG 
 
 
 ## 📸 Screenshots  

@@ -7,6 +7,7 @@ module.exports = {
         name: "gifhentai",
         aliases: ["gifhentai"],
         usage: "",
+        category: "NSFW",
         description: "Montre des gif hentai animé.",
         accessableby: "+18"
     },

@@ -16,7 +16,7 @@ module.exports = {
     var musicinfo = "NSFW"
     let nsfw = new MessageEmbed()
         .setAuthor(`${musicinfo}`, 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
-        .addField("Liste des commandes", "`anal` • `baka` • `blowjob` • `bondage` • `cum` • `erofeet` • `erokemo` • `eroyuri` • `feet` • `femdom` • `foxgirl` • `futa` • `gifhentai` • `hentai` • `pussy` • `slap` • `thighs` • `porngif` • `girl` • `gifporn`")
+        .addField("Liste des commandes", "`anal` • `baka` • `blowjob` • `bondage` • `cum` • `erofeet` • `erokemo` • `eroyuri` • `feet` • `femdom` • `foxgirl` • `futa` • `gifhentai` • `hentai` • `pussy` • `slap` • `thighs` • `girl` • `gifporn` • `redtube`")
         .setColor("#FFFFFF")
     message.channel.send(nsfw)
     setTimeout(() => message.delete(), 3000);

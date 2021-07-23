@@ -15,21 +15,23 @@ module.exports = {
     run: async (client, message, args) => {
         console.log(`${(chalk.green(`${message.author.username}`))}` +' sur '+ (chalk.magenta(`${message.guild.name}`)) + ' salon ' + (chalk.magenta(`${message.channel.name}`))+' : ' + ' A ouvert la fonction [' + (chalk.cyan(`${message.author.lastMessage}`))+ ']')
         let prefix = client.config.PREFIX
-        const version = "v1.2.6";
+        const version = "v2.1.1";
         const help = new MessageEmbed()
             .setColor("RANDOM")
             .setAuthor('Liste des commandes de ' + `${message.guild.me.displayName}`, message.guild.iconURL())
             .setThumbnail(message.guild.iconURL())
             if (!args[0]) {
-            help.addField(`:performing_arts: | Fun `, '`8ball • qi • poll • roll • say • morse • timer • dice • weather • slots • rechanime • binaire • eject • emojify • emojilist • avatar • calcul • fun`')
+            help.addField(`:performing_arts: | Fun `, '`8ball • qi • poll • roll • say • morse • timer • weather • rechanime • binaire • eject • emojify • emojilist • avatar • calcul • blague • trad • fun`')
             help.addField(`:globe_with_meridians: | General `, '`help • invite • uptime • servinfo • roles • support • contact • profil • reportu • reports • general`')
             help.addField(`:dog: | Images/Gifs `, '`chat • chien • renard • koala • oiseau • panda • hug • karma • tape • content • neko • img`')
-            help.addField(`:busts_in_silhouette: | Interaction `, '`aime • burger • calin • calumet • declareamitie • declareamour • dynamite • ecraser • envie • fakeban • fakemute • falaise • frapper • ftp • kiss • lasso • moquer • peine • pete • pietine • interaction`')
-            help.addField(`:gear: | Moderation `,  '`warn • clear • prune • annonce • id • mute • kick • ban • unmute • random • chuser • moderation`')
+            help.addField(`:busts_in_silhouette: | Interaction `, '`aime • burger • calin • calumet • declareamitie • declareamour • dynamite • ecraser • envie • fakeban • fakemute • falaise • frapper • ftp • kiss • lasso • moquer • peine • pete • interaction`')
+            help.addField(`:video_game: | Jeux `,  '`bingo • dé • love • pfc • rps • dice • slots • roll • jeux`')
+            help.addField(`:gear: | Moderation `,  '`warn • clear • prune • annonce • id • mute • kick • ban • unmute • random • chuser • gestionmoney • gestionor • moderation`')
             help.addField(`:notes: | Music `, '`leave • loop • lyrics • nowplaying • pause • play • playlist • queue • remove • resume • search • shuffle • skip • skipto • stop • volume • music`')
             help.addField(`:scroll: | Rôles `,  '`pc • playstation • xbox • nintendo • sega • role`')
+            help.addField(`:bank: | ViBank `,  '`• daily • bonus • leaderboard • pari • trademoney • tradeor`')
             if(message.channel.nsfw) {
-                help.addField(`:underage: | NSFW `, '`hentai • thighs • bondage • anal • baka • blowjob • cum • erofeet • erokemo • eroyuri • feet • femdom • foxgirl • futa • gifhentai • slap • pussy • porngif • girl • gifporn • nsfw`')
+                help.addField(`:underage: | NSFW `, '`hentai • thighs • bondage • anal • baka • blowjob • cum • erofeet • erokemo • eroyuri • feet • femdom • foxgirl • futa • gifhentai • slap • pussy • redtube • girl • gifporn • nsfw`')
             } else {
                 help.addField(`:underage: | NSFW `, `  \`\`\`fix\nPeut être utilisé sur un canal NSFW.\n\`\`\` `)
             }
@@ -38,7 +40,7 @@ module.exports = {
             return message.channel.send(help)
         } else {
             let command = client.commands.get(client.aliases.get(args[0].toLowerCase()) || args[0].toLowerCase())
-            if (!command) return message.channel.send(embed.setTitle("**Commande invalide.**").setDescription(`**Faire \`${prefix}help\` pour la liste des commandes.**`))
+            if (!command) return message.channel.send(`\`Commande invalide. Faire ${prefix}help pour afficher la liste des commandes.\``)
             command = command.config
 
             /*embed.setDescription(stripIndents`**Karma Prefix Is \`${prefix}\`**\n

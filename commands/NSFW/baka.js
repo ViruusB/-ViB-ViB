@@ -7,6 +7,7 @@ module.exports = {
         name: "baka",
         aliases: ["baka"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos Baka animé.",
         accessableby: "+18"
     },

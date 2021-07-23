@@ -7,6 +7,7 @@ module.exports = {
         name: "cum",
         aliases: ["cum"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos Cum animé.",
         accessableby: "+18"
     },

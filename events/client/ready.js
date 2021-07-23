@@ -1,6 +1,6 @@
 const chalk = require("chalk")
 const moment = require('moment');
-const version = "v1.2.6";
+const version = "v2.1.1";
 
 module.exports = async client => {
   let totalUsers = client.guilds.cache.reduce((users , value) => users + value.memberCount, 0);

@@ -17,7 +17,7 @@ exports.config = () => {
 }
 
 ["aliases", "commands", "cooldowns"].forEach(cmd => client[cmd] = new Discord.Collection());
-["console", "command", "event", "logs"].forEach(events => require(`./handlers/${events}`)(client));
+["console", "command", "event"].forEach(events => require(`./handlers/${events}`)(client));
 
 client.categories = fs.readdirSync('./commands');
 

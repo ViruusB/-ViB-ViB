@@ -7,6 +7,7 @@ module.exports = {
         name: "eroyuri",
         aliases: ["eroyuri"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos eroyuri animé.",
         accessableby: "+18"
     },

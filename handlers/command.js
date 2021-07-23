@@ -11,5 +11,5 @@ module.exports = (client) => {
             if (pull.config.aliases) pull.config.aliases.forEach(cmd => client.aliases.set(cmd, pull.config.name));
         };
     };
-    ["Fun", "General", "Images/Gifs", "Interaction", "Moderation", "Music", "NSFW", "Roles"].forEach(cmd => load(cmd));
+    ["Admin", "Fun", "General", "Images/Gifs", "Interaction", "Jeux", "Moderation", "Music", "NSFW", "Roles", "ViBank"].forEach(cmd => load(cmd));
 };

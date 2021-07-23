@@ -7,6 +7,7 @@ module.exports = {
         name: "slap",
         aliases: ["slap"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos slap animé.",
         accessableby: "+18"
     },

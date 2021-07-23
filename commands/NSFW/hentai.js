@@ -7,6 +7,7 @@ module.exports = {
         name: "hentai",
         aliases: ["hentai"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos de hentai.",
         accessableby: "+18"
     },

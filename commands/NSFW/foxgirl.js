@@ -7,6 +7,7 @@ module.exports = {
         name: "foxgirl",
         aliases: ["foxgirl"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos fox girl animé.",
         accessableby: "+18"
     },

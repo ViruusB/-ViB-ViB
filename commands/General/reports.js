@@ -5,7 +5,7 @@ module.exports = {
   config: {
       name: "reports",
       aliases: ["reports", "reportserveur", "reportserv"],
-      usage: "",
+      usage: "<votre_texte>",
       category: "General",
       description: "Permet de reporter un problème ou un bug sur le serveur.",
       accessableby: "DISPONIBLE",

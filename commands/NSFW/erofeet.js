@@ -7,6 +7,7 @@ module.exports = {
         name: "erofeet",
         aliases: ["erofeet"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos de pied animé.",
         accessableby: "+18"
     },

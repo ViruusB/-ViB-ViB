@@ -7,7 +7,7 @@ module.exports = {
   config: {
       name: "reportu",
       aliases: ["reportu", "reportuser", "reportutilisateur"],
-      usage: "",
+      usage: "@utilisateur <raison et/ou lien du message>",
       category: "General",
       description: "Permet de reporter un utilisateur",
       accessableby: "DISPONIBLE",

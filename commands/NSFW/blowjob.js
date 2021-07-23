@@ -7,6 +7,7 @@ module.exports = {
         name: "blowjob",
         aliases: ["blowjob"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos BlowJob animé.",
         accessableby: "+18"
     },

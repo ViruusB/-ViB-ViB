@@ -7,6 +7,7 @@ module.exports = {
         name: "thighs",
         aliases: ["thighs"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos semi-dénudé animé.",
         accessableby: "+18"
     },

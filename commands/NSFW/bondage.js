@@ -7,6 +7,7 @@ module.exports = {
         name: "bondage",
         aliases: ["bondage"],
         usage: "",
+        category: "NSFW",
         description: "Montre des photos de bondage animé.",
         accessableby: "+18",
     },

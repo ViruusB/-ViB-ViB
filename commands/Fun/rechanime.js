@@ -6,7 +6,7 @@ module.exports = {
     config: {
         name: "rechanime",
         aliases: ["rechanime", "animerech", "searchanime", "animesearch", "rechercheanime", "animerecherche"],
-        usage: "",
+        usage: "<nom_anime>",
         category: "Fun",
         description: "Permet de rechercher un animé",
         accessableby: "DISPONIBLE"
