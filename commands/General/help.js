@@ -21,7 +21,7 @@ module.exports = {
             .setAuthor('Liste des commandes de ' + `${message.guild.me.displayName}`, message.guild.iconURL())
             .setThumbnail(message.guild.iconURL())
             if (!args[0]) {
-            help.addField(`:performing_arts: | Fun `, '`8ball • qi • poll • roll • say • morse • timer • weather • rechanime • binaire • eject • emojify • emojilist • avatar • calcul • blague • trad • fun`')
+            help.addField(`:performing_arts: | Fun `, '`8ball • qi • poll • roll • say • morse • timer • weather • rechanime • binaire • eject • emojify • emojilist • avatar • calcul • blague • fun`')
             help.addField(`:globe_with_meridians: | General `, '`help • invite • uptime • servinfo • roles • support • contact • profil • reportu • reports • general`')
             help.addField(`:dog: | Images/Gifs `, '`chat • chien • renard • koala • oiseau • panda • hug • karma • tape • content • neko • img`')
             help.addField(`:busts_in_silhouette: | Interaction `, '`aime • burger • calin • calumet • declareamitie • declareamour • dynamite • ecraser • envie • fakeban • fakemute • falaise • frapper • ftp • kiss • lasso • moquer • peine • pete • interaction`')

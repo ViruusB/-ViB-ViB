@@ -10,7 +10,7 @@ const chalk = require("chalk");
         usage: "ID",
         category: "Admin",
         description: "Charger une sauvegarde de votre serveur Discord",
-        accessableby: "DISPONIBLE",
+        accessableby: "ADMIN",
     },
     
       run: async (client, message, args) => {

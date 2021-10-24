@@ -41,7 +41,7 @@
         * Ajout de commande [Admin]: 
 - (Dossier "backups" - 1infobackup, 2creerbackup, 3chargerbackup, admin)
         * Ajout de commande [Fun]: 
-- (blague, trad)
+- (blague)
         * Ajout de commande [NSFW]: 
 - (redtube)
 

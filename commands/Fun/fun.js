@@ -16,7 +16,7 @@ module.exports = {
     var musicinfo = "Fun"
     let music = new MessageEmbed()
         .setAuthor(`${musicinfo}`, 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
-        .addField("Liste des commandes", "`8ball` • `dice` • `morse` • `poll` • `qi` • `rechanime` • `roll` • `say` • `slots` • `timer` • `weather` • `binaire` • `eject` • `emojify` • `emojilist` • `avatar` • `calcul` • `blague` • `trad`")
+        .addField("Liste des commandes", "`8ball` • `dice` • `morse` • `poll` • `qi` • `rechanime` • `roll` • `say` • `slots` • `timer` • `weather` • `binaire` • `eject` • `emojify` • `emojilist` • `avatar` • `calcul` • `blague`")
         .setColor("#FFFFFF")
     message.channel.send(music)
     setTimeout(() => message.delete(), 3000);

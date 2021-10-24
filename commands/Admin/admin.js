@@ -16,7 +16,7 @@ module.exports = {
     var musicinfo = "Admin"
     let admin = new MessageEmbed()
         .setAuthor(`${musicinfo}`, 'https://raw.githubusercontent.com/ViruusB/-ViB-/main/assets/vib.jpg')
-        .addField("Liste des commandes", "`1infobackup` • `2creerbackup` • `3chargerbackup`")
+        .addField("Liste des commandes", "`1infobackup` • `2creerbackup` • `3chargerbackup` • `eval` • `reload`")
         .setColor("#FFFFFF")
     message.channel.send(admin)
     setTimeout(() => message.delete(), 3000);
